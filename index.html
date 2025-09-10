@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAstore - Productos Tecnológicos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo"><img src="assets/img/logo.png" width="90px"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact"><img src="assets/img/carr.png" width="50px"></a></li>
+                <li><a href="#sesion" class="sesion">Iniciar Sesión</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        
+        <div class="hero-content">
+            <h1>ECLIPSE</h1>
+            <p>Atrevete a vestir a tu gusto </p>
+            <a href="#products" class="btn">Explorar Productos</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon"><img src="assets/img/saco.jpeg" width="60px"> </div>
+                    <h3>Smartphones</h3>
+                    <p>Los últimos modelos con tecnología de vanguardia, cámaras profesionales y rendimiento excepcional</p>
+                    <div class="price">desde $800000</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">💻</div>
+                    <h3>Laptops</h3>
+                    <p>Computadoras portátiles de alto rendimiento para trabajo, gaming y creatividad digital</p>
+                    <div class="price">desde $3500000</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">⌚</div>
+                    <h3>Smartwatches</h3>
+                    <p>Relojes inteligentes con monitoreo de salud, GPS y conectividad avanzada</p>
+                    <div class="price">desde $2990000</div>
+                    <a href="#" class="btn">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Calidad y Confianza</h2>
+                    <p>Con más de 10 años en el mercado tecnológico, ofrecemos productos de las mejores marcas con garantía completa y soporte técnico especializado.</p>
+                    <p>Nuestro compromiso es brindar la mejor experiencia de compra, desde la selección del producto hasta el servicio post-venta.</p>
+                    <a href="#contact" class="btn">Conocer Más</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/img/tecnology.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>¡Contáctanos!</h2>
+                <p>¿Tienes preguntas? Estamos aquí para ayudarte a encontrar el producto perfecto</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                        <input type="email" id="email" placeholder="Tu email" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Asunto">
+                    <textarea id="message" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SENAstore. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
